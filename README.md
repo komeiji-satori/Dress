@@ -31,3 +31,9 @@ This repository is licensed under a Creative Commons Attribution-NonCommercial-S
 ### Contributing
 请仔细阅读[CONTRIBUTING.md](https://github.com/komeiji-satori/Dress/blob/master/CONTRIBUTING.md)  
 Please read [CONTRIBUTING.md](https://github.com/komeiji-satori/Dress/blob/master/CONTRIBUTING.md) carefully.
+
+### 关于文件太大无法Clone问题
+### Solving the problem of cloning big size of files
+如果本repo太大无法clone到本地以供~~学习~~欣赏，请尝试腾讯云`Coding Studio`提供的**免费**`Linux环境`（避免广告，不放链接）。
+If the too big size of this repo stop you clone it into local,please have a try on **free** `Linux environment` supported by `Coding Studio` of Tencent Cloud(to avoid ads,the link isn't given here).
+
