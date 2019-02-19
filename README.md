@@ -33,6 +33,11 @@ This simple repository requires no contribution of code, so that you can partici
 
 - [https://www.yoooooooooo.com/gitdress/](https://www.yoooooooooo.com/gitdress/)
 
+### Flutter App Demo 
+
+-[https://github.com/icepy/flutter-dress](https://github.com/icepy/flutter-dress)
+
+Flutter Dress 是一个全新的 Flutter 工程，它利用 komeiji-satori/Dress 的女装资源实现了一个 iOS 和 Android 客户端应用程序，方便大家在手机设备上查阅。
 
 ### Contributors
 [![contributors](https://opencollective.com/Dress/contributors.svg?width=890&button=false)](https://github.com/komeiji-satori/Dress/graphs/contributors)
