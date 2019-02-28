@@ -8,9 +8,9 @@ Hi~
 
 嘛……虽然平时会有很多性别焦虑，但是还是我还是个热爱生活的女孩子呢~
 
-然后……这是我的联系方式
-Email：knight.of.lambda.calculus@gmail.com
-Telegram：https://t.me/zhangyutong926
+然后……这是我的联系方式  
+Email：knight.of.lambda.calculus@gmail.com  
+Telegram：https://t.me/zhangyutong926  
 QQ：2276768747
 
 qaqqqqqqqqqq
