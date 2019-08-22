@@ -15,6 +15,12 @@ This simple repository requires no contribution of code, so that you can partici
 
 **Of course, you need to prepare a cross-dressing photo of yours first.**
 
+### github使用教程
+ - [official-english](https://help.github.com/en)
+ - [官方教程-中文](https://help.github.com/cn)
+ - [bilibili视频教程:面向女装的零基础 github 学习教程，带领非程序员踏入 Git (女装)的大门](https://www.bilibili.com/video/av34406290)
+
+
 ### 文件夹命名规则和文件标准
  - 不接受盗图和未授权转载他人图片
  - 请尽量使用有意义的文件夹名字
