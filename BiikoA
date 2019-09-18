@@ -1,0 +1,6 @@
+#include<stdio.h>
+
+int main(void){
+    printf("I finally fucking make it!SUP PUS!");
+    return 0;
+}
