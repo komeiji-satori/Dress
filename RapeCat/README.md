@@ -10,7 +10,13 @@ wwww 先放几个...
 [<img src="preview/0001.jpg" alt="Picture Preview">](0001.jpg)  
 [<img src="preview/0002.jpg" alt="Picture Preview">](0002.jpg)  
 [<img src="preview/0003.jpg" alt="Picture Preview">](0003.jpg)  
-[<img src="preview/0004.jpg" alt="Picture Preview">](0004.jpg) 
+[<img src="preview/0004.jpg" alt="Picture Preview">](0004.jpg)  
+（emmm这表情有点....）
+[<img src="preview/0005.jpg" alt="Picture Preview">](0005.jpg)  
+[<img src="preview/0006.jpg" alt="Picture Preview">](0006.jpg)  
+
+Twitter: [@o0OoO0Oo00](https://twitter.com/o0OoO0Oo00)  
+（基本想不起来上线，也懒得发东西，不会有你想要的..嗯大概暂时？）
 
 * 预览图使用[Image magick](https://imagemagick.org/script/convert.php "Image magick")生成；
 * 使用[ExifTool by Phil Harvey](http://owl.phy.queensu.ca/~phil/exiftool/ "ExifTool by Phil Harvey")
