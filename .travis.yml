@@ -1,0 +1,26 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+    - '$HOME/.npm'
+before_install:
+  - 'if [ "$TRAVIS_BRANCH" = "master" ]; then git remote set-branches --add origin web; git fetch origin web; git checkout web; fi'
+script:
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy/getGHPage.sh; fi'
+  - 'npm run build'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy/pushGHPage.sh; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy/getGHPage_drsrel.sh; fi'
+  - 'npm run build'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./deploy/pushGHPage.sh; fi'
+# deploy:
+#   provider: s3
+#   access_key_id: ztDf0fCxr0eCgSIi
+#   secret_access_key:
+#     secure:
+#       pqtYVC6ztu5Nowklu5vjXY8LUyQZ/8kGj7Dds9eWxNuDJbxrC8FGaTZRkRTEakbFtDTU78jiaaIn8FXYEyeGW7AmkU+V20Nc2TV5HWPVIiHyodfRul6PYZT6ad5iSCsNeU7xRr+aI4UtFGxwbox+aVEDB9+j9Nnbt0wagE+sOsQnY2Pzwgf9/AepBjgjg3owcJ1fYTw0IMlejfR1yQIriel9WzrQNWC/QFunihAAPZRNyvNui33YP3m49+HXzk1a/tKtP1U/twI4/ygqGWQG2e8UvxIIew0Jt+Io84AgP5koAGAZIr4s8Yl+6BvnOKA73n4gjHYYo/ASfmnzQ6yUIS2OkKPEqwHf3kx4fWYU3wzDoB+BpH8LxgcLVoKWZKa7HVXMY/3yyGDcOfKBS78R8zqRqut0OfMuSAg4/rocp1jtUFOg0Cw0/F69wo2yQVCfZu5JWPfpKtF8iiLyuJcNOB9oTirXNcSFriNMG+T2QmqemG6XxlBzj+ZFIJqOMOcHgUiEF6z4/rwly17/m5gNUSbSoUpvpTSu/ioqzj9RT1Z6EpfqEGvkdpOna7/tdCQBpqFqy+ofjQLzuurKSCDeNx9gOHh6oQJ8ozj6G+KHWR25GpL96/ZscTl9UqTyqypnwtgjEgDR29viKGEFVWpf70uigi2w0lMYDC4Lop4FOuQ=
+#   bucket: satori
+#   skip_cleanup: true
+#   local-dir: dist/dress
+#   endpoint: https://minio.moecube.com/satori
+#   on:
+#     all_branches: true
