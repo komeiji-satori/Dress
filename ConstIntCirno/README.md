@@ -2,6 +2,6 @@
 第一次女装就买了便宜的衣服试一下, 卧室里没有镜子, 就伸手随便拍了两张  
 有机会的话上传更多  
 ##Feb.13.2020
-![Pic_01](/src/images/01.jpg)
-![Pic_02](/src/images/02.jpg)
+![Pic_01](src/images/01.jpg)
+![Pic_02](src/images/02.jpg)
 
