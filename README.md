@@ -24,7 +24,16 @@ This simple repository requires no contribution of code, so that you can partici
  - 影响排序的文件夹命名 (例如 ```AAAA.Folder```, ```0.Folder```, ```111Folder```) 会被 Close Pull Request
  - 如果需要在你的文件夹内创建描述文件,请尽量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 语法来编写
  - 图片请尽量压缩大小, 并 [删除 EXIF 信息](https://github.com/komeiji-satori/Dress/blob/master/CONTRIBUTING.md), 图片质量过低的 Pull Request 会被 Close
- 
+
+### 随便看看
+
+在clone项目后，在项目的根路径下，使用`bash`运行下列命令：
+
+```bash
+$ ./open-one.sh
+```
+
+这将不停随机打开仓库中的任意一张图片。
 
 ### Online Demo
 - [https://drsrel.github.io/](https://drsrel.github.io/)
