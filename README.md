@@ -1,7 +1,7 @@
 ## Dress - 面向可爱的蓝孩子 (/ω＼) 的 git 学习实践项目 on GitHub
 
 ### Dress - A Study and Practice project of git.
-# ***If you are feeling puzzled and werid about the project, please read [README DETAIL](README_DETAIL.md)***
+# ***If you are feeling puzzled and weird about the project, please read [README DETAIL](README_DETAIL.md)***
 
 [![Contributors](https://img.shields.io/github/contributors/komeiji-satori/Dress.svg)](https://github.com/komeiji-satori/Dress/graphs/contributors)
 [![Build Status](https://www.travis-ci.org/komeiji-satori/Dress.svg?branch=master)](https://www.travis-ci.org/komeiji-satori/Dress)
