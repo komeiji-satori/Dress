@@ -1,5 +1,9 @@
 # xianii's album
 
+### 此面向敌
+
+![gun](eat_my_bullet.webp)
+
 ### 练琴
 
 ![kawai](kawai.webp)

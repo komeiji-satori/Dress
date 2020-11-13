@@ -1,5 +1,6 @@
 ## 照片准则 Photo Accept Baseline
 
+- 不接受盗图和未授权转载他人图片
 - 萌即正义
 - 性别不限
 
@@ -11,4 +12,4 @@
 
 删除方法参考 https://forums.adobe.com/thread/890607 
 
-Please pay attention to prevent the accidental leakage of personal information. Please check carefully whether the EXIF information is properly handled (such as GPS tags) before you push the photo(s). If you want to delete EXIF please refer to https://forums.adobe.com/thread/890607 
+Please pay attention to preventing the accidental leakage of personal information. Please check carefully whether the EXIF information is properly handled (such as GPS tags) before you push the photo(s). If you want to delete EXIF please refer to https://forums.adobe.com/thread/890607 
