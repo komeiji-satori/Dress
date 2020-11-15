@@ -9,6 +9,7 @@ import albums from '../../data/albums.json';
 })
 export class AlbumsComponent {
   albums = albums;
+  defaultImage ="https://via.placeholder.com/196.png?text=dress"
 
   constructor(private http: HttpClient) {}
 }

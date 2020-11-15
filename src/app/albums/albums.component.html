@@ -11,7 +11,7 @@
 <!--</div>-->
 <div *ngFor="let album of albums" class="item">
   <a class="cover-wrapper" [routerLink]="album.name">
-    <img class="cover" [src]="'Dress/' + album.name + '/' + album.files[0]">
+    <img [defaultImage]="defaultImage" class="cover" [lazyLoad]="'Dress/' + album.name + '/' + album.files[0]">
   </a>
   <a [href]="'https://github.com/' + album.name" target="_blank" class="info">
     <img class="avatar" [src]="'https://avatars.githubusercontent.com/' + album.name + '?size=24'">

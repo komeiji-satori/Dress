@@ -44,7 +44,11 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.json",
-              { "glob": "**/*.@(jpg|JPG|png|PNG)", "input": "src/Dress", "output": "Dress" }
+              {
+                "glob": "**/*.@(jpg|JPG|png|PNG)",
+                "input": "src/Dress",
+                "output": "Dress"
+              }
             ],
             "styles": [
               {
@@ -156,5 +160,8 @@
       }
     }
   },
-  "defaultProject": "dress"
+  "defaultProject": "dress",
+  "cli": {
+    "analytics": "775cd4fa-883e-4b09-a989-f5bf2715c6d1"
+  }
 }

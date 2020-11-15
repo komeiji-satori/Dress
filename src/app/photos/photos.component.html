@@ -1,10 +1,10 @@
 <div *ngFor="let commit of photos" class="commit">
   <h4>
-    <span class="date">{{commit.date | date:'M月d日'}}</span>
-    <span class="author">{{commit.username}}</span>
-    <span class="message" *ngIf="commit.message">{{commit.message}}</span>
+    <span class="date">{{ commit.date | date: 'M月d日' }}</span>
+    <span class="author">{{ commit.username }}</span>
+    <span class="message" *ngIf="commit.message">{{ commit.message }}</span>
   </h4>
   <a *ngFor="let file of commit.files" [routerLink]="file" (click)="onPhotoClick()">
-    <img [src]="'Dress/' + file">
+    <img  [lazyLoad]="'Dress/' + file" />
   </a>
 </div>
