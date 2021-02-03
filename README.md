@@ -42,7 +42,7 @@ This simple repository requires no contribution of code, so that you can partici
 ### License
 本项目采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可。  
 This repository is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-
+ 
 ### Contributing
 请仔细阅读[CONTRIBUTING.md](https://github.com/komeiji-satori/Dress/blob/master/CONTRIBUTING.md)  
 Please read [CONTRIBUTING.md](https://github.com/komeiji-satori/Dress/blob/master/CONTRIBUTING.md) carefully.
